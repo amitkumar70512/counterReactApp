@@ -12,6 +12,9 @@ h4{
   align-items: center;
   margin:5%;
 }
+.col{
+  flex-direction: column;
+}
 
 .container span{
   padding:1%;

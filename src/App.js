@@ -47,8 +47,7 @@ const fetchUsers = () => {
       <button type="button" className="btn btn-dark" onClick={()=>dispatch(INC())}>+</button>
       </div>
 
-      <div className='container'>
-        
+      <div className='container col'>
       <h4>Using  Redux-thunk middleware</h4>
         <button type="button" className='btn btn-success' onClick={()=>dispatch(fetchUsers())}> Fetch</button>
       </div>
